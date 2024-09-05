@@ -1,6 +1,6 @@
 # Belajar Vue.js
 
-Repository ini berisi skrip dan tutorial tentang Vue.js berdasarkan video tutorial dari [YouTube](https://www.youtube.com/watch?v=CY5MVEyaGFQ&list=PLnrs9DcLyeJQ0ZqgkIRRII4kIyc5Hbt3F&index=9).
+Repository ini berisi skrip dan tutorial tentang Vue.js berdasarkan video tutorial dari [Cara Fajar](https://www.youtube.com/watch?v=CY5MVEyaGFQ&list=PLnrs9DcLyeJQ0ZqgkIRRII4kIyc5Hbt3F&index=9).
 
 ## Deskripsi
 
