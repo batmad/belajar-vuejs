@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    
+    <div id="app">
+        <form action="">
+            <input v-model="firstName" type="text" /><br>
+            <input v-model="middleName" type="text" /><br>
+            <input v-model="lastName" type="text" /><br>
+        </form>
+        <hr>
+        <div>
+            Fullname : {{ fullName }}
+        </div>
+    </div>
+
+    <script type="module">
+        import { createApp } from 'https://unpkg.com/vue@3/dist/vue.esm-browser.js'
+
+        createApp({
+            data() {
+                return {
+                    firstName: '',
+                    middleName: '',
+                    lastName: ''
+                }
+            },
+            computed: {
+                fullName() {
+                    return this.firstName + ' ' + this.middleName + ' ' + this.lastName
+                }
+            }
+        }).mount('#app')
+
+    </script>
+</body>
+</html>
